@@ -2,7 +2,7 @@ Config { font = "xft:DejaVu Sans Mono for Powerline-10"
        , bgColor = "#fdf6e3"
        , fgColor = "#657b83"
        , position = TopW L 100
-       , commands = [ Run Weather "KAUS" ["-t"," <tempF>F","-L","64","-H","77","--normal","#85990","--high","#9c5447","--low","#2aa198"] 36000
+       , commands = [ Run Weather "KAUS" ["-t"," <tempF>F","-L","64","-H","77","--normal","#859900","--high","#9c5447","--low","#2aa198"] 36000
                     , Run Cpu ["-L","3","-H","50","--normal","859900","--high","#dc322f"] 10
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
                     , Run Date "%a %b %_d %l:%M" "date" 10
